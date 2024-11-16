@@ -1,0 +1,10 @@
+name = "test-lake-test-errors"
+version = "0.1.0"
+defaultTargets = ["test-lake-test-errors"]
+
+[[lean_lib]]
+name = "TestLakeTestErrors"
+
+[[lean_exe]]
+name = "test-lake-test-errors"
+root = "Main"
